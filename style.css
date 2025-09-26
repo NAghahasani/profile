@@ -214,6 +214,15 @@ section{
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
+
+/* ✅ تغییر اصلی برای کنار هم قرار گرفتن کارت‌ها */
+.about-containers{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
 .about-details-container{
 justify-content: center;
 flex-direction: column;
